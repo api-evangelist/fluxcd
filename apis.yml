@@ -6,10 +6,10 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
-  - Kubernetes
-  - GitOps
   - Continuous Delivery
   - Deployment
+  - GitOps
+  - Kubernetes
 url: >-
   https://raw.githubusercontent.com/api-evangelist/fluxcd/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -23,10 +23,10 @@ apis:
     humanURL: https://fluxcd.io/
     tags:
       - Containers
-      - Kubernetes
-      - GitOps
       - Continuous Delivery
       - Deployment
+      - GitOps
+      - Kubernetes
     properties:
       - type: Documentation
         url: https://fluxcd.io/flux/

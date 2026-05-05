@@ -1,0 +1,13 @@
+{
+  "repo": "fluxcd",
+  "feeds": [
+    {
+      "source": "https://fluxcd.io/blog/",
+      "feed_url": "https://fluxcd.io/blog/index.xml",
+      "saved": 10,
+      "title": "Flux \u2013 Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:28:01Z"
+}

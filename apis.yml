@@ -43,6 +43,12 @@ common:
     url: https://github.com/fluxcd
   - type: Blog
     url: https://fluxcd.io/blog/
+  - type: Integrations
+    url: https://fluxcd.io/ecosystem/
+integrations:
+  - name: Azure
+  - name: ControlPlane
+  - name: GitLab
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

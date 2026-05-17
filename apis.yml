@@ -30,16 +30,16 @@ apis:
     properties:
       - type: Documentation
         url: https://fluxcd.io/flux/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://fluxcd.io/flux/get-started/
 common:
   - type: Website
     url: https://fluxcd.io/
   - type: Documentation
     url: https://fluxcd.io/flux/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://fluxcd.io/flux/get-started/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/fluxcd
   - type: Blog
     url: https://fluxcd.io/blog/

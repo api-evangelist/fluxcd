@@ -13,7 +13,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/fluxcd/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-04-28'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: fluxcd:fluxcd
@@ -45,6 +45,9 @@ common:
     url: https://fluxcd.io/blog/
   - type: Integrations
     url: https://fluxcd.io/ecosystem/
+  - name: Agent Skills
+    url: https://github.com/fluxcd/agent-skills
+    type: AgentSkill
 integrations:
   - name: Azure
   - name: ControlPlane

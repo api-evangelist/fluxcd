@@ -3,7 +3,7 @@ name: Flux CD
 description: >-
   Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible, enabling GitOps-based automation for keeping Kubernetes clusters in sync with sources of configuration like Git repositories.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Containers
   - Continuous Delivery

@@ -47,7 +47,7 @@ common:
     url: https://fluxcd.io/ecosystem/
   - name: Agent Skills
     url: https://github.com/fluxcd/agent-skills
-    type: AgentSkill
+    type: AgentSkills
 integrations:
   - name: Azure
   - name: ControlPlane

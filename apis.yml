@@ -33,6 +33,10 @@ apis:
       - type: GettingStarted
         url: https://fluxcd.io/flux/get-started/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/fluxcd-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/fluxcd-domain-security.yml
   - type: Website
     url: https://fluxcd.io/
   - type: Documentation

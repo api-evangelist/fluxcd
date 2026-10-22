@@ -137,3 +137,67 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: fluxcd-openssf-best-practices-badge
+  label: OpenSSF Best Practices Badge
+  partner_name: OpenSSF Best Practices Badge
+  category: OpenSSF Best Practices badge (open-source project security conformance)
+  type: register
+  channel: standard-directory
+  evidence: https://www.bestpractices.dev/en/projects/4782
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: OpenSSF Best Practices badge projects (bestpractices.dev/en/projects.json, paged)
+    standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+    spec_file: null
+    role: badge-holder
+    registered_name: Flux
+    matched_by: github-org
+    matched_on: fluxcd
+    certified_products:
+    - product: open-source project
+      product_type: open-source project
+      standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+      lapsed: false
+      partner_tier: silver
+      projects:
+      - name: Flux
+        id: 4782
+        url: https://www.bestpractices.dev/en/projects/4782
+        badge_level: silver
+      - name: flagger
+        id: 4783
+        url: https://www.bestpractices.dev/en/projects/4783
+        badge_level: passing
+      - name: helm-controller
+        id: 4784
+        url: https://www.bestpractices.dev/en/projects/4784
+        badge_level: passing
+      - name: image-automation-controller
+        id: 4789
+        url: https://www.bestpractices.dev/en/projects/4789
+        badge_level: passing
+      - name: image-reflector-controller
+        id: 4790
+        url: https://www.bestpractices.dev/en/projects/4790
+        badge_level: passing
+      - name: kustomize-controller
+        id: 4787
+        url: https://www.bestpractices.dev/en/projects/4787
+        badge_level: passing
+      - name: notification-controller
+        id: 4791
+        url: https://www.bestpractices.dev/en/projects/4791
+        badge_level: passing
+      - name: source-controller
+        id: 4786
+        url: https://www.bestpractices.dev/en/projects/4786
+        badge_level: passing
+    signal_note: 'certified_products = ONE entry (product type: open-source project) with the highest CURRENT badge
+      level in partner_tier; a provider whose projects only lost the badge is lapsed: true; project names are context,
+      never counted; in_progress entries are not conformance'
+    detected_by: sweep-openssf-best-practices-badges.py
+    detected: '2026-10-22'
+    identity_source: apis.yml GitHubOrganization pointer (provider's own declaration)
+  status: not-a-workflow
+  arazzo: null

@@ -165,7 +165,7 @@ edges:
   category: infrastructure-as-code provider registry listing
   badges:
   - Verified publisher (GitHub domain-verified organization)
-- partner_name: OpenSSF Best Practices Badge
+- partner_name: OpenSSF Best Practices Badge (bestpractices.dev)
   partner: null
   partner_match: register
   type: register
@@ -173,60 +173,60 @@ edges:
   relationship: standard-participant
   direction: partner-built
   evidence: https://www.bestpractices.dev/en/projects/4782
-  category: OpenSSF Best Practices badge (open-source project security conformance)
+  category: OpenSSF Best Practices badge (open-source project security practices)
   contract_reference:
-    register: OpenSSF Best Practices badge projects (bestpractices.dev/en/projects.json, paged)
-    standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+    register: OpenSSF Best Practices Badge projects (www.bestpractices.dev/en/projects.json)
+    standard: OpenSSF Best Practices Badge criteria (passing / silver / gold)
     spec_file: null
-    role: badge-holder
+    role: badged-project-owner
     registered_name: Flux
-    matched_by: github-org
-    matched_on: fluxcd
+    matched_domain: fluxcd.io
+    matched_by: domain
     certified_products:
     - product: open-source project
       product_type: open-source project
-      standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
-      lapsed: false
+      standard: OpenSSF Best Practices Badge criteria (passing / silver / gold)
       partner_tier: silver
-      projects:
-      - name: Flux
-        id: 4782
-        url: https://www.bestpractices.dev/en/projects/4782
-        badge_level: silver
-      - name: flagger
-        id: 4783
-        url: https://www.bestpractices.dev/en/projects/4783
-        badge_level: passing
-      - name: helm-controller
-        id: 4784
-        url: https://www.bestpractices.dev/en/projects/4784
-        badge_level: passing
-      - name: image-automation-controller
-        id: 4789
-        url: https://www.bestpractices.dev/en/projects/4789
-        badge_level: passing
-      - name: image-reflector-controller
-        id: 4790
-        url: https://www.bestpractices.dev/en/projects/4790
-        badge_level: passing
-      - name: kustomize-controller
-        id: 4787
-        url: https://www.bestpractices.dev/en/projects/4787
-        badge_level: passing
-      - name: notification-controller
-        id: 4791
-        url: https://www.bestpractices.dev/en/projects/4791
-        badge_level: passing
-      - name: source-controller
-        id: 4786
-        url: https://www.bestpractices.dev/en/projects/4786
-        badge_level: passing
-    signal_note: 'certified_products = ONE entry (product type: open-source project) with the highest CURRENT badge
-      level in partner_tier; a provider whose projects only lost the badge is lapsed: true; project names are context,
-      never counted; in_progress entries are not conformance'
+      lapsed: false
+      badge_date: '2024-05-09'
+    badged_projects:
+    - name: Flux
+      id: 4782
+      badge: silver
+      url: https://www.bestpractices.dev/en/projects/4782
+    - name: flagger
+      id: 4783
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4783
+    - name: helm-controller
+      id: 4784
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4784
+    - name: source-controller
+      id: 4786
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4786
+    - name: kustomize-controller
+      id: 4787
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4787
+    - name: image-automation-controller
+      id: 4789
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4789
+    - name: image-reflector-controller
+      id: 4790
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4790
+    - name: notification-controller
+      id: 4791
+      badge: passing
+      url: https://www.bestpractices.dev/en/projects/4791
+    signal_note: 'certified_products = ONE entry per provider (product type open-source project): highest current
+      OpenSSF Best Practices badge level in partner_tier, earliest date at that level; lapsed: true when every linked
+      project lost its badge. badged_projects is context, never counted'
     detected_by: sweep-openssf-best-practices-badges.py
     detected: '2026-10-22'
-    identity_source: apis.yml GitHubOrganization pointer (provider's own declaration)
   detected_by: sweep-openssf-best-practices-badges.py
   first_seen: '2026-10-22'
 generated: '2026-10-15'
@@ -235,19 +235,23 @@ source:
 - https://github.com/cncf/landscape
 - https://github.com/cncf/k8s-conformance
 checked:
-- https://cyclonedx.org/tool-center/
-- https://focus.finops.org/data-generators/
-- https://github.com/cncf/k8s-conformance
-- https://github.com/cncf/landscape
-- https://raw.githubusercontent.com/ossf/ossf-landscape/0c5085851606608158f3adb796e5c22265ee174d/landscape.yml
-- https://spdx.dev/use/spdx-tools/
-- https://www.openchainproject.org/community-of-conformance
 - https://api.github.com
 - https://claude-plugins.dev/sitemap.xml
+- https://cyclonedx.org/tool-center/
+- https://focus.finops.org/data-generators/
 - https://github.com/VoltAgent/awesome-agent-skills
+- https://github.com/cncf/k8s-conformance
+- https://github.com/cncf/landscape
+- https://landscape.cd.foundation/data/full.json
 - https://officialskills.sh/sitemap.xml
+- https://plugins.jenkins.io/api/plugin/
+- https://plugins.jenkins.io/api/plugins
+- https://raw.githubusercontent.com/ossf/ossf-landscape/0c5085851606608158f3adb796e5c22265ee174d/landscape.yml
 - https://skillsmp.com/sitemap.xml
+- https://spdx.dev/use/spdx-tools/
+- https://www.bestpractices.dev/en/projects.json
+- https://www.bestpractices.dev/en/projects.json?page=N
+- https://www.openchainproject.org/community-of-conformance
 - https://www.skills.sh/sitemap.xml
 - opentofu/integrations/opentofu-integration-edges.yml
 - terraform/integrations/terraform-integration-edges.yml
-- https://www.bestpractices.dev/en/projects.json
